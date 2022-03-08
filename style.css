@@ -1,0 +1,224 @@
+.bar{
+    display: inline-block;
+    width: 950px;
+    height: 50px;
+    margin: 5px;
+    padding: 2px;
+}
+
+.pomodorotext{
+    text-align: right;
+    
+}
+
+
+.timer{
+    background-color: #6c5ce7;
+    font-size: 150px;
+    margin: 50px;
+
+}
+
+.settingicon{
+    height: 40px;
+}
+
+.windowicon{
+    height: 40px;
+}
+
+.nexticon{
+    height: 25px;
+}
+
+.plusicon{
+    height: 20px;
+}
+
+.boardicon{
+    height: 20px;
+}
+
+.staricon{
+    height: 10px;
+}
+
+.timer{
+    margin: auto;
+}
+
+.timerarea{
+    height: 450px;
+    width: 150px;
+    background-color:#6c5ce7;
+   
+}
+
+.button{
+    margin:auto;
+}
+
+.btn{
+    background-color: #6c5ce7;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #bdbdbd;
+    touch-action: manipulation;
+    user-select: none;
+    line-height: 1.5;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    
+}
+
+.baslatbutton{
+    margin: auto;  
+}
+
+#baslat{
+    width: 200px;
+    height: 40px;
+    background-color: #6c5ce7;
+    color: black;
+    border-color: black!important;
+}
+
+#durdur{
+    width: 200px;
+    height: 40px;
+    background-color: #6c5ce7;
+    color: black;
+    border-color: black!important;
+
+}
+
+
+.durdurbutton{
+   margin: auto;
+
+}
+
+
+/* TO DO LIST AREA */
+
+
+   hr {
+       width: 418px;
+       display: inline-block
+
+   }
+    h4 {
+        display: inline;
+    }
+
+    h5 {
+        display: inline;
+        
+    }
+
+    .yapılacaklar{
+        color:black;
+        font-weight: 100;
+        font-size: medium;
+    }
+
+
+    #category{
+        display: inline-block;
+        height: 35px;
+    }
+
+    #addToDo{
+        margin-left: 5px;
+        width: 860px;
+        height: 35px;
+    }
+
+    #add{
+        height: 34px;
+        margin-right: 5px;
+        margin-left: 0%;
+        border-color: black;
+        border-width: 1px;
+    }
+
+    #clear{
+        height: 35px;
+        border-width: 1px;
+    }
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background:white ;
+    font-size: 18px;
+    transition: 0.2s;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  ul li:nth-child(odd) {
+    background:whitesmoke ;
+  }
+  
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  ul li.checked {
+    background: #276678;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  
+  ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+
+   
+  .button {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+
+  .button:hover {
+    background-color: #bbb;
+  }
+
+  .list-item-styling {
+    cursor: pointer;
+    color: black;
+    text-transform: capitalize;
+
+  } 
